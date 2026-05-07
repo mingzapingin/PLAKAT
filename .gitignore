@@ -1,0 +1,48 @@
+# Large downloaded/generated data
+data/db/
+data/genomes/
+data/genomes/cache/
+data/ref/
+data/lists_tmp/
+
+# Pipeline outputs
+results/
+*.log
+*.tmp
+*.tsv
+*.csv
+*.fasta
+*.fa
+*.fna
+*.gbk
+*.gff
+*.gff3
+*.bed
+*.blast
+*.nhr
+*.nin
+*.nsq
+*.ndb
+*.not
+*.ntf
+*.nto
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+
+# R / IDE / OS
+.Rproj.user/
+*.Rproj
+.DS_Store
+Thumbs.db
+
+# Test/example input files not included in repo
+test/
+
+# macOS metadata
+.DS_Store
+._*
